@@ -15,7 +15,7 @@ def calculate(args) -> float:
 
 
 def main():
-    parser = argparse.AtgumentParser(description="Calculator: addition,"
+    parser = argparse.ArgumentParser(description="Calculator: addition,"
                                      "substraction, division, and"
                                      "multiplication")
     parser.add_argument("operation", choices=['add', 'sub', 'mult', 'div'],
